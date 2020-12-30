@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Project 1",
+        "author": "Author 1",
+        "co-author": "Co-Author 1",
+        "createdAt": "ISO DATE",
+        "updatedAt": "ISO DATE"
+    },
+    {
+        "id": "2",
+        "name": "Project 2",
+        "author": "Author 2",
+        "co-author": "Co-Author 2",
+        "createdAt": "ISO DATE",
+        "updatedAt": "ISO DATE"
+    },
+    {
+        "id": "3",
+        "name": "Project 3",
+        "author": "Author 3",
+        "co-author": "Co-Author 3",
+        "createdAt": "ISO DATE",
+        "updatedAt": "ISO DATE"
+    },
+    {
+        "id": "4",
+        "name": "Project 4",
+        "author": "Author 4",
+        "co-author": "Co-Author 4",
+        "createdAt": "ISO DATE",
+        "updatedAt": "ISO DATE"
+    },
+    {
+        "id": "5",
+        "name": "Project 5",
+        "author": "Author 5",
+        "co-author": "Co-Author 5",
+        "createdAt": "ISO DATE",
+        "updatedAt": "ISO DATE"
+    },
+]
