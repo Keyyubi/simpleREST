@@ -28,14 +28,14 @@ router.get("/", (req, res) => {
 
 //get with ID
 router.get("/:id", (req, res) => {
-  console.log("Getting the project with id ", id);
   const { id } = req.params;
+  console.log("Getting the project with id ", id);
   const project = projects.find((e) => e.id == id);
   res.send(project ? project : "Couldn't found");
 });
 
 router.post("/", (req, res) => {
-  const project = req.body;
+  const project = req.body[0];
   console.log("Creating project", project);
   if (project.id && !projects.find((e) => e.id == project.id)) {
     project.createdAt = new Date().toISOString();
@@ -50,7 +50,7 @@ router.post("/", (req, res) => {
 
 router.patch("/:id", (req, res) => {
   const { id } = req.params;
-  const { name, author, coAuthor } = req.body;
+  const { name, author, coAuthor } = req.body[0];
   const project = projects.find((e) => e.id == id);
   if (project) {
     if (name) project.name = name;
